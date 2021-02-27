@@ -1,0 +1,100 @@
+@import url('fonts.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0 !important;
+}
+.text-color {
+    color: #3292a6;
+}
+.bg-color {
+    background-color: #3292a6;
+    color: #fff;
+}
+.btn {
+    background-color: #3292a6;
+    color: #fff;
+}
+body{
+    margin-top: 90px;
+}
+.navbar {
+    box-shadow: 2px 2px 5px #3292a6;
+    background: #fff;
+    opacity: 0.9;
+}
+.nav-item {
+    font-size: 20px;
+    padding-right: 20px;
+}
+.nav-item:last-child {
+    padding-right: 0;
+}
+.nav-link {
+    color: #252525 !important;
+}
+.nav-link:hover {
+    color: #3292a6 !important;
+}
+#showcase{
+    background-image: url('../img/mountains.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    position: relative;
+}
+#showcase .primary-overlay {
+    background:rgba(50, 146, 156, 0.7);
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+#showcase .fa {
+    margin-right: 10px;
+    font-size: initial;
+}
+
+/*------------ Subscribes -------------*/
+
+#subscribes {
+    background-color: #252525;
+}
+
+/*------------ Card -------------*/
+
+#card-section .card {
+    border-color: #3292a6;
+    /* border-radius: 0; */
+}
+
+/*------------ Authors -------------*/
+
+#authors .fab {
+    font-size: 25px;
+    color: #3292a6;
+}
+#authors .card {
+    /* border-radius: 0; */
+    transition: all 0.3s;
+}
+#authors .card:hover {
+    background-color: #3292a6;
+    color: #fff;
+}
+#authors .card:hover .fab {
+    color: #fff;
+}
+
+/*------------ Responsive -------------*/
+
+@media(max-width: 576px){
+    #showcase h1 {
+        font-size: 70px;
+    }
+}
+
